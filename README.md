@@ -7,6 +7,8 @@
 
 - [resolvers-trusted.txt](resolvers-trusted.txt): A list of trusted resolvers from organizations like Cloudflare, Google, etc. We recommend you use this list to re-validate the results you get with the main resolvers.
 
+[<img src="./banner.png" />](https://trickest-access.paperform.co/)
+
 ## How it Works
 A [Trickest](https://trickest.com) workflow creates an initial dataset of resolvers from various sources and then uses multiple instances of [dnsvalidator](https://github.com/vortexau/dnsvalidator) to validate and re-validate this dataset and make it as reliable as possible.
 
@@ -28,3 +30,6 @@ All contributions/ideas/suggestions are welcome! Feel free to create a new ticke
 
 ## Build your own workflows!
 We believe in the value of tinkering. Sign up for a demo on [trickest.com](https://trickest.com) to customize this workflow to your use case, get access to many more workflows, or build your own from scratch!
+
+[<img src="./banner.png" />](https://trickest-access.paperform.co/)
+
