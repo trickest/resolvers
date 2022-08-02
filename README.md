@@ -18,6 +18,7 @@ A [Trickest](https://trickest.com) workflow creates an initial dataset of resolv
   - [The Public DNS Server List](https://public-dns.info/nameservers.txt)
   - A list of provider DNS servers collected from [bass](https://github.com/Abss0x7tbh/bass/tree/master/resolvers) (Thanks, [Abss0x7tbh](https://github.com/Abss0x7tbh)).
   - A community-maintained list of resolvers on [janmasarik/resolvers](https://github.com/janmasarik/resolvers) (Thanks, [janmasarik](https://github.com/janmasarik)).
+  - A list of DNS servers contributed by our community in [resolvers-community.txt](resolvers-community.txt)
 - This mega list of resolvers is then `sort -u`d and split up into smaller chunks.
 - Multiple instances of [dnsvalidator](https://github.com/vortexau/dnsvalidator) are created to validate the resolver lists in parallel (Huge thanks to [vortexau](https://github.com/vortexau) and [codingo](https://github.com/codingo)).
 - Then we run another round of [dnsvalidator](https://github.com/vortexau/dnsvalidator) to weed out any false positives that survived the previous step.
@@ -26,7 +27,7 @@ A [Trickest](https://trickest.com) workflow creates an initial dataset of resolv
 - This workflow is scheduled to run constantly.
 
 ## Contribution
-All contributions/ideas/suggestions are welcome! Feel free to create a new ticket via [GitHub issues](https://github.com/trickest/resolvers/issues), tweet at us [@trick3st](https://twitter.com/trick3st), or join the conversation on [Discord](https://discord.gg/7HZmFYTGcQ).
+All contributions are welcome! You can create a pull request editing [resolvers-community.txt](resolvers-community.txt) to contribute new DNS servers to the project. For any other suggestions/questions, feel free to create a new ticket via [GitHub issues](https://github.com/trickest/resolvers/issues), tweet at us [@trick3st](https://twitter.com/trick3st), or join the conversation on [Discord](https://discord.gg/7HZmFYTGcQ).
 
 ## Build your own workflows!
 We believe in the value of tinkering. Sign up for a demo on [trickest.com](https://trickest.com) to customize this workflow to your use case, get access to many more workflows, or build your own from scratch!
