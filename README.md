@@ -1,4 +1,4 @@
-<h1 align="center">Resolvers <a href="https://twitter.com/intent/tweet?text=Trickest%20Resolvers%20-%20The%20most%20exhaustive%20list%20of%20reliable%20DNS%20resolvers%0A%0Ahttps%3A%2F%2Fgithub.com%2Ftrickest%2Fresolvers&hashtags=bugbounty,bugbountytips,infosec"><img src="https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social" alt="Tweet" height="20"/></a></h1>
+<h1 align="center">Resolvers <a href="https://twitter.com/intent/tweet?text=Trickest%20Resolvers%20-%20The%20most%20exhaustive%20list%20of%20reliable%20DNS%20resolvers%20%40trick3st%0A%0Ahttps%3A%2F%2Fgithub.com%2Ftrickest%2Fresolvers&hashtags=bugbounty,bugbountytips,infosec"><img src="https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social" alt="Tweet" height="20"/></a></h1>
 <h3 align="center">The most exhaustive list of reliable DNS resolvers</h3>
 
 - [resolvers.txt](resolvers.txt): A simple list of resolver IP addresses, which you can pass directly to your DNS enumeration tool.
