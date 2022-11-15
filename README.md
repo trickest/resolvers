@@ -14,11 +14,17 @@ A [Trickest](https://trickest.com) workflow creates an initial dataset of resolv
 
 ![Trickest Workflow](resolvers.png "Trickest Workflow - Resolvers")
 ### TB; DZ (Too big; didn't zoom)
-- We collect the initial dataset from four sources:
+- We collect the initial dataset from ten sources:
   - [The Public DNS Server List](https://public-dns.info/nameservers.txt)
   - A list of provider DNS servers collected from [bass](https://github.com/Abss0x7tbh/bass/tree/master/resolvers) (Thanks, [Abss0x7tbh](https://github.com/Abss0x7tbh)).
-  - A community-maintained list of resolvers on [janmasarik/resolvers](https://github.com/janmasarik/resolvers) (Thanks, [janmasarik](https://github.com/janmasarik)).
-  - A list of DNS servers contributed by our community in [resolvers-community.txt](resolvers-community.txt).
+  - [janmasarik/resolvers](https://github.com/janmasarik/resolvers) (Thanks, [janmasarik](https://github.com/janmasarik)).
+  - A list of DNS servers contributed by our community in [resolvers-community.txt](resolvers-community.txt) (Thanks, Trickest community!).
+  - [proabiral/Fresh-Resolvers](https://github.com/proabiral/Fresh-Resolvers) (Thanks, [proabiral](https://github.com/proabiral)).
+  - [geraldino2/jart](https://github.com/geraldino2/jart) (Thanks, [geraldino2](https://github.com/geraldino2)).
+  - [cxosmo/dns-resolvers](https://github.com/cxosmo/dns-resolvers) (Thanks, [cxosmo](https://github.com/cxosmo)).
+  - [Massdns](https://github.com/blechschmidt/massdns)'s resolvers list (Thanks, [blechschmidt](https://github.com/blechschmidt)).
+  - [zeroc00I/test_github_action](https://github.com/zeroc00I/test_github_action) (Thanks, [zeroc00I](https://github.com/zeroc00I)).
+  - [Auto_Wordlists](https://github.com/carlospolop/Auto_Wordlists)'s resolvers list (Thanks, [carlospolop](https://github.com/carlospolop)).
 - This mega list of resolvers is then `sort -u`d and split up into smaller chunks.
 - Multiple instances of [dnsvalidator](https://github.com/vortexau/dnsvalidator) are created to validate the resolver lists in parallel (Huge thanks to [vortexau](https://github.com/vortexau) and [codingo](https://github.com/codingo)).
 - Then we run another round of [dnsvalidator](https://github.com/vortexau/dnsvalidator) to weed out any false positives that survived the previous step.
