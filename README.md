@@ -15,7 +15,7 @@ A [Trickest](https://trickest.com) workflow creates an initial dataset of resolv
 ![Trickest Workflow](resolvers.png "Trickest Workflow - Resolvers")
 ### TB; DZ (Too big; didn't zoom)
 - We collect the initial dataset from ten sources:
-  - [The Public DNS Server List](https://public-dns.info/nameservers.txt)
+  - [publicdns.info](https://publicdns.info/nameservers.txt) (8,500+ continuously validated servers, re-verified every 72 hours — replaces stale public-dns.info)
   - A list of provider DNS servers collected from [bass](https://github.com/Abss0x7tbh/bass/tree/master/resolvers) (Thanks, [Abss0x7tbh](https://github.com/Abss0x7tbh)).
   - [janmasarik/resolvers](https://github.com/janmasarik/resolvers) (Thanks, [janmasarik](https://github.com/janmasarik)).
   - A list of DNS servers contributed by our community in [resolvers-community.txt](resolvers-community.txt) (Thanks, Trickest community!).
